@@ -14,7 +14,7 @@ const data = students.data
   return (
     <>
       <div className='students-container-wrapper'>
-        {data.map((student) => 
+        {data && data.map((student) => 
             <StudentItem name={student.name} address={student.address}/>
         )}
       </div>

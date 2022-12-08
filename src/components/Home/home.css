@@ -1,0 +1,18 @@
+.std-wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.add {
+    border: 1px solid blue;
+    border-radius: 100%;
+}
